@@ -1,3 +1,5 @@
+> **WIP: No public PRs are allowed for now**
+
 # VeChain Stargate Validator-Hub - Submit Form
 
 The following is a set of guidelines for contributing to **Validator-Hub**. These
