@@ -11,7 +11,7 @@ are just guidelines, not rules. Use your best judgment and feel free to propose 
 
 1. The validator must be queued or active on Stargate Mainnet
 2. Logo is required
-3. The directory name under `/validators` must be the validator's master address
+3. The directory name under `/validators` must be the validator's master address in lowercase
 4. Short and simple descriptions
 5. Comply with directory & contents rules
 6. One validator per submission
@@ -39,11 +39,11 @@ Ref:
 
 ### Create a directory
 
-Once the Validator-Hub is forked, create a new directory in the `validators` directory named exactly as your validator's master address and include a `manifest.json` file and `logo.png` file. Your validator directory structure should look like this
+Once the Validator-Hub is forked, create a new directory in the `validators` directory named exactly as your validator's master address in lowercase and include a `manifest.json` file and `logo.png` file. Your validator directory structure should look like this
 
 ```
 ├── validators
-│   └── 0xYourMasterAddressHere
+│   └── 0xyourmasteraddresshere
 │       ├── logo.png
 │       └── manifest.json
 ```
