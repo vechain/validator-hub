@@ -9,12 +9,13 @@ are just guidelines, not rules. Use your best judgment and feel free to propose 
 
 ## Rules
 
-1. The validator must be queued or active on Stargate Mainnet
+1. The validator must be queued or active on the appropriate Stargate network (mainnet, testnet, or devnet)
 2. Logo is required
-3. The directory name under `/validators` must be the validator's master address in lowercase
+3. The directory name under the appropriate network folder (`/validators/main/`, `/validators/test/`, or `/validators/devnet/`) must be the validator's master address in lowercase
 4. Short and simple descriptions
 5. Comply with directory & contents rules
 6. One validator per submission
+7. Submit to the correct network folder based on where your validator is active
 
 > This is only for validators currently queued or active on Stargate. If you are not yet registered as a validator, go to https://app.stargate.vechain.org/new-validator.
 
@@ -26,7 +27,8 @@ Recommended workflow:
 
 - Fork the Validator-Hub
 - Create a new branch
-- Create your validator details and upload to the proper directory
+- Choose the appropriate network folder (`main/`, `test/`, or `devnet/`) based on where your validator lives
+- Create your validator details and upload to the proper network directory
 - Make the pull request
 
 Ref:
@@ -39,13 +41,22 @@ Ref:
 
 ### Create a directory
 
-Once the Validator-Hub is forked, create a new directory in the `validators` directory named exactly as your validator's master address in lowercase and include a `manifest.json` file and `logo.png` file. Your validator directory structure should look like this
+Once the Validator-Hub is forked, create a new directory in the appropriate network folder under `validators` named exactly as your validator's master address in lowercase and include a `manifest.json` file and `logo.png` file. Your validator directory structure should look like this
 
 ```
 ├── validators
-│   └── 0xyourmasteraddresshere
-│       ├── logo.png
-│       └── manifest.json
+│   ├── main/          # Mainnet validators
+│   │   └── 0xyourmasteraddresshere
+│   │       ├── logo.png
+│   │       └── manifest.json
+│   ├── test/          # Testnet validators
+│   │   └── 0xyourmasteraddresshere
+│   │       ├── logo.png
+│   │       └── manifest.json
+│   └── devnet/        # Devnet validators
+│       └── 0xyourmasteraddresshere
+│           ├── logo.png
+│           └── manifest.json
 ```
 
 ### Create a JSON File & Rules
@@ -83,7 +94,11 @@ Import your validator logo into the directory and name it `logo`.
 
 - **The pull request should have a clean git history.**
 - Don't use another company's trademarks (icon, logo or name) without supplying evidence of prior permission
-- Create a directory under `/validators/` and include the _manifest.json_ and the _logo.png_
+- Create a directory under the appropriate network folder (`/validators/main/`, `/validators/test/`, or `/validators/devnet/`) and include the _manifest.json_ and the _logo.png_
+- Choose the correct network folder:
+  - `/validators/main/` for mainnet validators
+  - `/validators/test/` for testnet validators  
+  - `/validators/devnet/` for devnet validators
 - Keep description short and simple, but descriptive.
 - Check your spelling and grammar.
 - URL must have schemes of **_http_** or **_https_**.
