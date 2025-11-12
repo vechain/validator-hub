@@ -1,0 +1,18 @@
+[
+  {
+    "address": "0x5377b62e067a47d2f6b3bf6d735de884722ee87e",
+    "name": "Restify",
+    "location": "London, United Kingdom",
+    "desc": "Restify is a validator on the VeChain network. We are a team of developers and engineers who are passionate about building decentralized applications and services on the VeChain network.",
+    "website": "https://restifyapp.org",
+    "logo": "validators/devnet/0x5377b62e067a47d2f6b3bf6d735de884722ee87e/logo.png"
+  },
+  {
+    "address": "0x5e2d494fcba3e0d5773ca79f2e0a04358351a858",
+    "name": "VeChain Foundation",
+    "location": "City of San Marino, San Marino",
+    "desc": "VeChain Foundation operates the VeChainThor public blockchain and runs a secure, reliable validator to support the network and its ecosystem.",
+    "website": "https://vechain.org",
+    "logo": "validators/devnet/0x5e2d494fcba3e0d5773ca79f2e0a04358351a858/logo.png"
+  }
+]

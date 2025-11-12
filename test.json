@@ -1,0 +1,26 @@
+[
+  {
+    "address": "0x79bf33375930e53bcafe0b85cb91c72dab87235c",
+    "name": "Legion",
+    "location": "Dublin, Ireland",
+    "desc": "We are legion, we are many.",
+    "website": "https://vechain.org/",
+    "logo": "validators/test/0x79bf33375930e53bcafe0b85cb91c72dab87235c/logo.png"
+  },
+  {
+    "address": "0x8c6908432d88bd6d7bdc75f7343ba7adaa39f611",
+    "name": "Deception",
+    "location": "Shanghai, China",
+    "desc": "Decepticons attack!",
+    "website": "https://vechain.org/",
+    "logo": "validators/test/0x8c6908432d88bd6d7bdc75f7343ba7adaa39f611/logo.png"
+  },
+  {
+    "address": "0xfb05d5ce0c73cdc5aafc550d059f07ae612dee78",
+    "name": "The Galactic Empire",
+    "location": "Washington, USA",
+    "desc": "You do not need to know my name. All you need to know is that I am, and always will be, a loyal servant of the Galactic Empire. There is only one law: Obedience to the Emperor. There is only one punishment for failure: Death.",
+    "website": "https://vechain.org/",
+    "logo": "validators/test/0xfb05d5ce0c73cdc5aafc550d059f07ae612dee78/logo.png"
+  }
+]
