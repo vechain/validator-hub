@@ -30,6 +30,7 @@ jobs:
         run: |
           mkdir -p deploy
           cp main.json devnet.json test.json deploy/
+          cp -r imgs deploy/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

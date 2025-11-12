@@ -6,9 +6,10 @@ const path = require('path');
 /**
  * Scans a network directory and generates validator data
  * @param {string} network - Network name (main, devnet, test)
+ * @param {string} imgsDir - Directory to copy logo images to
  * @returns {Array} Array of validator objects
  */
-function generateValidatorData(network) {
+function generateValidatorData(network, imgsDir) {
   const validatorsDir = path.join(__dirname, '..', 'validators', network);
   
   // Check if directory exists
@@ -57,9 +58,15 @@ function generateValidatorData(network) {
         validator.website = manifest.website;
       }
       
-      // Add logo path if logo.png exists
+      // Copy logo to imgs directory and add logo path if logo.png exists
       if (fs.existsSync(logoPath)) {
-        validator.logo = `validators/${network}/${address}/logo.png`;
+        const networkImgsDir = path.join(imgsDir, network);
+        if (!fs.existsSync(networkImgsDir)) {
+          fs.mkdirSync(networkImgsDir, { recursive: true });
+        }
+        const destLogoPath = path.join(networkImgsDir, `${address}.png`);
+        fs.copyFileSync(logoPath, destLogoPath);
+        validator.logo = `imgs/${network}/${address}.png`;
       }
       
       validators.push(validator);
@@ -79,12 +86,18 @@ function generateValidatorData(network) {
 function main() {
   const networks = ['main', 'devnet', 'test'];
   const outputDir = path.join(__dirname, '..');
+  const imgsDir = path.join(outputDir, 'imgs');
+  
+  // Create imgs directory if it doesn't exist
+  if (!fs.existsSync(imgsDir)) {
+    fs.mkdirSync(imgsDir, { recursive: true });
+  }
   
   console.log('Generating validator JSON files...\n');
   
   for (const network of networks) {
     console.log(`Processing ${network} network...`);
-    const validators = generateValidatorData(network);
+    const validators = generateValidatorData(network, imgsDir);
     
     // Generate output file
     const outputFile = path.join(outputDir, `${network}.json`);
@@ -94,7 +107,7 @@ function main() {
     console.log(`✓ Generated ${network}.json with ${validators.length} validator(s)\n`);
   }
   
-  console.log('All JSON files generated successfully!');
+  console.log('All JSON files and logos generated successfully!');
 }
 
 // Run the script
