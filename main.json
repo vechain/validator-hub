@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "address": "0x22a3bccab6e3c1b3b53f800cc4fa43c63af0e86e",
+    "name": "BetterSwap",
+    "location": "United States, Europe",
+    "desc": "Delegate Smart. Delegate Better.",
+    "website": "https://www.betterswap.io",
+    "logo": "imgs/main/0x22a3bccab6e3c1b3b53f800cc4fa43c63af0e86e.png"
+  }
+]
