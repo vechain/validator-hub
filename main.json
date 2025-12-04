@@ -6,5 +6,12 @@
     "desc": "Delegate Smart. Delegate Better.",
     "website": "https://www.betterswap.io",
     "logo": "imgs/main/0x22a3bccab6e3c1b3b53f800cc4fa43c63af0e86e.png"
+  },
+  {
+    "address": "0xDb71c5C9a5cD407313139978aA8990347D141918",
+    "name": "Tesseract Validator",
+    "location": "Mid-Atlantic, United States",
+    "desc": "Operating as one of VeChain’s original 101 Authority Nodes since June 2018, Tesseract delivers secure, high-uptime validation and consistent rewards for delegators, with a mission centered on long-term network reliability and responsible participation",
+    "logo": "imgs/main/0xDb71c5C9a5cD407313139978aA8990347D141918.png"
   }
 ]
