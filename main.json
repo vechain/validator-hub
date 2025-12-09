@@ -8,6 +8,14 @@
     "logo": "imgs/main/0x22a3bccab6e3c1b3b53f800cc4fa43c63af0e86e.png"
   },
   {
+    "address": "0x8684ed66ba47f9ff77409fc453be5fd2aea4cc6c",
+    "name": "SunnySideUp",
+    "location": "US, Northern Virginia",
+    "desc": "The first validator backed by Sunny Lu—founder of VeChain and one of the last stubborn believers that blockchain should actually, you know… do something useful. SunnySideUp keeps things warm and simple: Sunny brings the VET, the sun rises, and the validator does its best to keep the chain happy, healthy, and running smoothly for everyone.",
+    "website": "https://x.com/sunshinelu24",
+    "logo": "imgs/main/0x8684ed66ba47f9ff77409fc453be5fd2aea4cc6c.png"
+  },
+  {
     "address": "0xDb71c5C9a5cD407313139978aA8990347D141918",
     "name": "Tesseract Validator",
     "location": "Mid-Atlantic, United States",
