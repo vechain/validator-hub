@@ -24,6 +24,14 @@
     "logo": "imgs/main/0x26f428e74fe0d67cd9ff19899e3093756c8ec780.png"
   },
   {
+    "address": "0x39Cff9cCA21a33391E8EaAcC980E066A77AE152e",
+    "name": "Keyrock",
+    "location": "Belgium",
+    "desc": "Founded in Brussels in 2017, Keyrock is a global crypto investment group leading in market making, asset management, OTC, and options trading for digital assets. Providing liquidity to over 85 centralized and decentralized venues worldwide, their 200-strong team operates across 37 countries, with entities in Belgium, the UK, Switzerland, France, and the U.S. Keyrock’s commitment to the industry is practical, not theoretical. They offer in-depth industry insights, co-create DeFi ecosystems, and actively support Web3 startups. With Keyrock, the future of digital assets is not just envisioned; it’s actively being built.",
+    "website": "https://keyrock.com",
+    "logo": "imgs/main/0x39Cff9cCA21a33391E8EaAcC980E066A77AE152e.png"
+  },
+  {
     "address": "0x813d86e6c5a391812598932bf822522acc386310",
     "name": "Michaël vd Poppe Pool",
     "location": "Amsterdam, Netherlands",
