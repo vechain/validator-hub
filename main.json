@@ -1,5 +1,13 @@
 [
   {
+    "address": "0x1F66de57049FFd2cbC85d7A7ba5d1d76d6937678",
+    "name": "Keyrock",
+    "location": "Belgium",
+    "desc": "Founded in Brussels in 2017, Keyrock is a global crypto investment group leading in market making, asset management, OTC, and options trading for digital assets. Providing liquidity to over 85 centralized and decentralized venues worldwide, their 200-strong team operates across 37 countries, with entities in Belgium, the UK, Switzerland, France, and the U.S. Keyrock’s commitment to the industry is practical, not theoretical. They offer in-depth industry insights, co-create DeFi ecosystems, and actively support Web3 startups. With Keyrock, the future of digital assets is not just envisioned; it’s actively being built.",
+    "website": "https://keyrock.com",
+    "logo": "imgs/main/0x1F66de57049FFd2cbC85d7A7ba5d1d76d6937678.png"
+  },
+  {
     "address": "0x22a3bccab6e3c1b3b53f800cc4fa43c63af0e86e",
     "name": "BetterSwap",
     "location": "United States, Europe",
