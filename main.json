@@ -32,6 +32,14 @@
     "logo": "imgs/main/0x39Cff9cCA21a33391E8EaAcC980E066A77AE152e.png"
   },
   {
+    "address": "0x4bfea2200a7c7dceceff5210dd3bd4298fb66ff7",
+    "name": "Binance",
+    "location": "Global",
+    "desc": "Binance Staking",
+    "website": "https://binance.com/earn",
+    "logo": "imgs/main/0x4bfea2200a7c7dceceff5210dd3bd4298fb66ff7.png"
+  },
+  {
     "address": "0x813d86e6c5a391812598932bf822522acc386310",
     "name": "Michaël vd Poppe Pool",
     "location": "Amsterdam, Netherlands",
