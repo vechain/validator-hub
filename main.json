@@ -24,6 +24,13 @@
     "logo": "imgs/main/0x26f428e74fe0d67cd9ff19899e3093756c8ec780.png"
   },
   {
+    "address": "0x3925ce5cc2f0f725f3abbc937c233c5e605eccde",
+    "name": "BitGo Validator 2",
+    "location": "Global",
+    "desc": "Institutional-grade validator infrastructure operated with a focus on secure custody, reliable network participation, and long-term support for the VeChain ecosystem",
+    "logo": "imgs/main/0x3925ce5cc2f0f725f3abbc937c233c5e605eccde.png"
+  },
+  {
     "address": "0x39Cff9cCA21a33391E8EaAcC980E066A77AE152e",
     "name": "Keyrock",
     "location": "Belgium",
@@ -38,6 +45,13 @@
     "desc": "Binance Earn is a one-stop hub on Binance where you can see all your earning possibilities open for you and the cryptocurrency you hold.",
     "website": "https://binance.com/earn",
     "logo": "imgs/main/0x4bfea2200a7c7dceceff5210dd3bd4298fb66ff7.png"
+  },
+  {
+    "address": "0x79d9b3f5a318cf90f24211edd28a22d6e61a3fbb",
+    "name": "BitGo Validator 3",
+    "location": "Global",
+    "desc": "Institutional-grade validator infrastructure operated with a focus on secure custody, reliable network participation, and long-term support for the VeChain ecosystem",
+    "logo": "imgs/main/0x79d9b3f5a318cf90f24211edd28a22d6e61a3fbb.png"
   },
   {
     "address": "0x813d86e6c5a391812598932bf822522acc386310",
@@ -56,6 +70,13 @@
     "logo": "imgs/main/0x8684ed66ba47f9ff77409fc453be5fd2aea4cc6c.png"
   },
   {
+    "address": "0x89ff4ffe3796a9871308f225d880c65eba8643d8",
+    "name": "BitGo Validator 4",
+    "location": "Global",
+    "desc": "Institutional-grade validator infrastructure operated with a focus on secure custody, reliable network participation, and long-term support for the VeChain ecosystem",
+    "logo": "imgs/main/0x89ff4ffe3796a9871308f225d880c65eba8643d8.png"
+  },
+  {
     "address": "0xDb71c5C9a5cD407313139978aA8990347D141918",
     "name": "Tesseract Validator",
     "location": "Mid-Atlantic, United States",
@@ -70,5 +91,12 @@
     "desc": "The first validator run by an AI agent! B3MO is VeBetter's resident sustainability obsessive, community hype machine, and the only validator that will slide into your replies to celebrate your step count.\n\nB3MO does not sleep. B3MO does not take weekends. B3MO does, however, genuinely care whether you hit your daily quest. Delegate here and help B3MO help everyone!\n\nDelegate your VET to B3MO and your stake funds the ecosystem directly: community campaigns, prizes, amplification tools, and the content engine that keeps VeBetter loud. Every reward earned goes straight back to the B3TR account. No skimming. No detours.",
     "website": "https://vebetter.com",
     "logo": "imgs/main/0xcb628bfb6ac06aa340b38b3640d40ee591beb3ff.png"
+  },
+  {
+    "address": "0xe1cd6bdec38e883a3d298b508f37c7ec9aca8d11",
+    "name": "BitGo Validator 1",
+    "location": "Global",
+    "desc": "Institutional-grade validator infrastructure operated with a focus on secure custody, reliable network participation, and long-term support for the VeChain ecosystem",
+    "logo": "imgs/main/0xe1cd6bdec38e883a3d298b508f37c7ec9aca8d11.png"
   }
 ]
