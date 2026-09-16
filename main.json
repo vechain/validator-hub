@@ -24,6 +24,14 @@
     "logo": "imgs/main/0x26f428e74fe0d67cd9ff19899e3093756c8ec780.png"
   },
   {
+    "address": "0x329abb05614b5fc46f5d01def157ec4ef3371538",
+    "name": "CTDG 2",
+    "location": "Limoges, France",
+    "desc": "Secure validator infrastructure operated by Cointelegraph Decentralization Guardians, supporting the VeChain ecosystem.",
+    "website": "https://cointelegraph-guardians.com/",
+    "logo": "imgs/main/0x329abb05614b5fc46f5d01def157ec4ef3371538.png"
+  },
+  {
     "address": "0x3925ce5cc2f0f725f3abbc937c233c5e605eccde",
     "name": "BitGo Validator 2",
     "location": "Global",
