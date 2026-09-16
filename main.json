@@ -39,6 +39,14 @@
     "logo": "imgs/main/0x39Cff9cCA21a33391E8EaAcC980E066A77AE152e.png"
   },
   {
+    "address": "0x4bb61af6c400ebb8b5e0470299af766111970637",
+    "name": "CTDG 1",
+    "location": "Limoges, France",
+    "desc": "Secure validator infrastructure operated by Cointelegraph Decentralization Guardians, supporting the VeChain ecosystem.",
+    "website": "https://cointelegraph-guardians.com/",
+    "logo": "imgs/main/0x4bb61af6c400ebb8b5e0470299af766111970637.png"
+  },
+  {
     "address": "0x4bfea2200a7c7dceceff5210dd3bd4298fb66ff7",
     "name": "Binance Staking",
     "location": "Global",
